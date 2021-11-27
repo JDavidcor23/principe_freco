@@ -1,139 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
 }
-#slider-mobile{
-    display: none;
+#slider-mobile {
+  display: none;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 60px 83px;
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
-#list-images{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+#list-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-#list-images img{
-    width: 80px;
-    height: 120px;
-    margin: 24px 0px;
+#list-images img {
+  width: 80px;
+  height: 120px;
+  margin: 24px 0px;
 }
-#list-images > img{
-    margin-top: 0;
+#list-images > img {
+  margin-top: 0;
 }
-#carrusel-images{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 56px 0 24px;
+#carrusel-images {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
-.product-image{
-    width: 616px;
-    height: 924px;
-    margin: 24px 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.product-image {
+  width: 616px;
+  height: 924px;
+  margin: 24px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#uno{
-    background-image: url(https://i.ibb.co/6XSDPyb/crown1.png);
+#carrusel-images > img {
+  margin: 0 20px 0 20px;
+  height: 500px;
 }
-#dos{
-    background-image: url(https://i.ibb.co/3pRvv5q/crown2.png);
+#detalle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 60px;
+  width: 424px;
+  height: 752px;
 }
-#tres{
-    background-image: url(https://i.ibb.co/3pRvv5q/crown3.png);
+#price {
+  font-size: 30px;
+  margin-bottom: 40px;
 }
-#carrusel-images > div{
-    margin-top: 0;
+#name-container {
+  width: 424px;
+  height: 56px;
+  margin-bottom: 40px;
 }
-#detalle-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 60px;
-    width: 424px;
-    height: 752px;
-
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 56px;
 }
-#price{
-    font-size: 30px;
-    margin-bottom: 40px;
+#size-list {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding-left: 0;
 }
-#name-container{
-    width: 424px;
-    height: 56px;
-    margin-bottom: 40px;
-}
-h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 46px;
-    line-height: 56px;
-    
-}
-#size-list{
-    display: flex;
-    font-size: 20px;
-    margin-bottom: 40px;
-    padding-left: 0;
-}
-#size-list li{
-    list-style: none;
-    margin: 0px 32px;
-    margin-left: 0;
-    padding: 5px;
+#size-list li {
+  list-style: none;
+  margin: 0px 32px;
+  margin-left: 0;
+  padding: 5px;
 }
 .size-active {
-    
-    border: solid 2px #1D1D1D;
+  border: solid 2px #1d1d1d;
 }
-#butons{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    padding: 0px;
-    margin-bottom: 40px;
+#butons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 40px;
 }
-#butons button{
-    align-items: center;
-    padding: 13px 10px;
-    width: 424px;
-    height: 56px;
-    border-radius: 4px;
-    border: none;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    font-weight:700;
-    margin: 8px 0px;
-    font-size: 22px;
+#butons button {
+  align-items: center;
+  padding: 13px 10px;
+  width: 424px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 8px 0px;
+  font-size: 22px;
 }
-#addCard{
-    background: #1D1D1D;
+#addCard {
+  background: #1d1d1d;
 }
-#buy{
-    background: #4276FB;
+#buy {
+  background: #4276fb;
 }
-#description p{
-    margin-bottom: 40px;
+#description p {
+  margin-bottom: 40px;
 }
-#description a{
-    color: #1D1D1D;
+#description a {
+  color: #1d1d1d;
 }
-@media (max-width: 460px) {
+/* @media (max-width: 460px) {
     main{
         width: 100%;
         padding: 0;
@@ -183,4 +171,4 @@ h2{
     #butons button{
         width: 100%;
     }
-}
+} */
