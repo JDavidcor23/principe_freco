@@ -1,5 +1,6 @@
 import {url} from './url.js'
 import { deleProducts } from './deleteProducts.js'
+import { showDetails } from './showDetails.js'
 const ul = document.querySelector(".list-group")
 const canvas = document.querySelector('canvas')
 const getUser = async () =>{
@@ -19,8 +20,8 @@ const getUser = async () =>{
         `
     })
 }
-
 window.addEventListener('DOMContentLoaded', getUser)
+window.addEventListener('DOMContentLoaded', showDetails(canvas, url))
 
 // Captura de datos del formulario 
 const capturarDatos = () =>{
