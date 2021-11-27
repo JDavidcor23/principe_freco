@@ -1,17 +1,6 @@
 {
   "productos": [
     {
-      "nombre": "jajajSweatshirt",
-      "img": [
-        "https://i.ibb.co/6XSDPyb/crown1.png",
-        "https://i.ibb.co/6XSDPyb/crown2.png",
-        "https://i.ibb.co/6XSDPyb/crown3.png"
-      ],
-      "precio": "80",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?",
-      "id": 1
-    },
-    {
       "id": 2,
       "img": [
         "https://i.ibb.co/C92j1wv/fresB1.png",
