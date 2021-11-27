@@ -1,7 +1,11 @@
+const canvas = document.getElementById('canvas')
+const showProduct = JSON.parse(localStorage.getItem('Detalle'))
+// console.log(canvas)
 
-export const showDetails = (element, canvas) => {
-    const {id,nombre,img,precio,descripcion}
-    canvas.innerHTML =+ `
+const showDetails = (element,canvas) =>{
+    
+    const {id,nombre,img,precio,descripcion} = element
+    canvas.innerHTML = `
     <div id="slider-mobile"></div>
         <div id="list-images">
             <img src=${img[0]} alt="produc image">
@@ -10,9 +14,9 @@ export const showDetails = (element, canvas) => {
             
         </div>
         <div id="carrusel-images">
-            <div class="product-image" id="uno"></div>
-            <div class="product-image" id="dos"></div>
-            <div class="product-image" id="tres"></div>          
+            <div class="product-image" id="uno" style= "background-image: url(${img[0]})";></div>
+            <div class="product-image" id="dos" style= "background-image: url(${img[1]})";></div>
+            <div class="product-image" id="tres" style= "background-image: url(${img[2]})";></div>          
         </div>
         <div id="detalle-container">
             <div id="name-container">
@@ -37,12 +41,10 @@ export const showDetails = (element, canvas) => {
             </div>
             <div id="description">
                 <p>${descripcion}</p>
-                <a href="">Click for Sizing</a>
+                <a href="#">Click for Sizing</a>
             </div>
         </div>
-    `
-    
-       
-    
+    `        
 }
+document.addEventListener('DOMContentLoaded', showDetails(showProduct,canvas))
   

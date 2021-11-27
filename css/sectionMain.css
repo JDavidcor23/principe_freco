@@ -29,3 +29,6 @@
   font-weight: bold;
   text-align: center;
 }
+.btn-primary {
+  width: 200px;
+}
