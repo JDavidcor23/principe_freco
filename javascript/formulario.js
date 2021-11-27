@@ -19,3 +19,45 @@ const getUser = async () =>{
     })
 }
 window.addEventListener('DOMContentLoaded', getUser)
+
+// Captura de datos del formulario 
+const capturarDatos = () =>{
+    const nombre = document.getElementById('inputNombre').value;
+    const img1 = document.getElementById('img1').value;
+    const img2 = document.getElementById('img2').value;
+    const img3 = document.getElementById('img3').value;
+    const precio = document.getElementById('precio').value;
+    const descripcion = document.getElementById('inputDescripcion').value;
+
+    const user = {
+        nombre,
+        img1,
+        img2,
+        img3,
+        precio,
+        descripcion
+    }
+
+return user;
+}
+
+//PETICION POST 
+
+const form = document.querySelector('.form-group');
+
+form.addEventListener('submit', async (e) =>{
+    e.preventDefault();
+    const objeto = capturarDatos();
+
+
+    await fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(objeto),
+        headers: {
+            "Content-Type": "application/json; charset=utf-8"
+        }
+
+    })
+})
+
+
