@@ -16,7 +16,6 @@ const getUser = async () =>{
             </button>
         </li>
         `
-
     })
 }
 window.addEventListener('DOMContentLoaded', getUser)
