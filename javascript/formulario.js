@@ -1,5 +1,5 @@
 import {url} from './url.js'
-
+import { deleProducts } from './deleteProducts.js'
 const ul = document.querySelector(".list-group")
 const getUser = async () =>{
     
@@ -18,4 +18,6 @@ const getUser = async () =>{
         `
     })
 }
+
 window.addEventListener('DOMContentLoaded', getUser)
+window.addEventListener('DOMContentLoaded', deleProducts(ul, url))
