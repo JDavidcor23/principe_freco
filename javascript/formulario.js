@@ -1,8 +1,6 @@
 import {url} from './url.js'
 import { deleProducts } from './deleteProducts.js'
-import { showDetails } from './showDetails.js'
 const ul = document.querySelector(".list-group")
-const canvas = document.querySelector('canvas')
 const getUser = async () =>{
     
     const respuesta = await fetch(url)
@@ -21,7 +19,7 @@ const getUser = async () =>{
     })
 }
 
-window.addEventListener('DOMContentLoaded', getUser(), deleProducts(ul, url),showDetails(canvas, url))
+window.addEventListener('DOMContentLoaded', getUser(), deleProducts(ul, url))
 
 // Captura de datos del formulario 
 const capturarProductos = () =>{
