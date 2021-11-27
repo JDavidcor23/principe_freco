@@ -1,6 +1,7 @@
 {
   "productos": [
     {
+<<<<<<< HEAD
       "id": 1,
       "img": [
         "https://i.ibb.co/6XSDPyb/crown1.png",
@@ -10,6 +11,17 @@
       "nombre": "Crown Sweatshirt",
       "precio": 80,
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?"
+=======
+        "id": 1,
+        "img": [
+            "https://i.ibb.co/6XSDPyb/crown1.png",
+            "https://i.ibb.co/6XSDPyb/crown2.png", 
+            "https://i.ibb.co/6XSDPyb/crown3.png"
+        ],
+        "nombre": "Crown Sweatshirt",
+        "precio": 80.00,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
+>>>>>>> 21673138ea30448df8bf17610d06462cc2b64bcd
     },
     {
       "id": 2,
@@ -43,6 +55,7 @@
       "nombre": "Fresh Stripe Sweater",
       "precio": 85,
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?"
+<<<<<<< HEAD
     },
     {
       "nombre": "junior",
@@ -52,6 +65,8 @@
       "precio": "51515",
       "descripcion": "ujgh",
       "id": 5
+=======
+>>>>>>> 21673138ea30448df8bf17610d06462cc2b64bcd
     }
   ]
 }

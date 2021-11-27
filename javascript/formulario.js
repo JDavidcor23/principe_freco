@@ -1,5 +1,5 @@
 import {url} from './url.js'
-
+import { deleProducts } from './deleteProducts.js'
 const ul = document.querySelector(".list-group")
 const getUser = async () =>{
     
@@ -18,7 +18,9 @@ const getUser = async () =>{
         `
     })
 }
+
 window.addEventListener('DOMContentLoaded', getUser)
+<<<<<<< HEAD
 
 // Captura de datos del formulario 
 const capturarDatos = () =>{
@@ -61,3 +63,6 @@ form.addEventListener('submit', async (e) =>{
 })
 
 
+=======
+window.addEventListener('DOMContentLoaded', deleProducts(ul, url))
+>>>>>>> 21673138ea30448df8bf17610d06462cc2b64bcd
