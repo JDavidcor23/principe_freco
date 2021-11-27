@@ -1,0 +1,32 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "img": "",
+            "nombre": "Crown Sweatshirt",
+            "precio": 80.00,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
+        },
+        {
+            "id": 2,
+            "img": "",
+            "nombre": "Fresh Black Tie-Dye Hoodie",
+            "precio": 75.00,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
+        },
+        {
+            "id": 3,
+            "img": "",
+            "nombre": "Pose For It Tee",
+            "precio": 45.00,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
+        },
+        {
+            "id": 4,
+            "img": "",
+            "nombre": "Fresh Stripe Sweater",
+            "precio": 85.00,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
+        }
+    ]
+}
