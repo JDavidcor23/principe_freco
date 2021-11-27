@@ -1,6 +1,7 @@
 import {url} from './url.js'
 import { deleProducts } from './deleteProducts.js'
 const ul = document.querySelector(".list-group")
+const canvas = document.querySelector('canvas')
 const getUser = async () =>{
     
     const respuesta = await fetch(url)
