@@ -1,13 +1,13 @@
-export const showDetails = async(element,productEndpoint) => {
-    const products = await productEndpoint;
-    products.forEach(prod => {
-        const {id,img,nombre, precio, descripcion} = prod;
-        element.innerHTML += `
-        <div id="slider-mobile"></div>
+
+export const showDetails = (element, canvas) => {
+    const {id,nombre,img,precio,descripcion}
+    canvas.innerHTML =+ `
+    <div id="slider-mobile"></div>
         <div id="list-images">
-            <img src= ${img[0]} alt="produc image">
-            <img src= ${img[1]} alt="produc image">
-            <img src= ${img[2]} alt="produc image"> 
+            <img src=${img[0]} alt="produc image">
+            <img src=${img[1]} alt="produc image">
+            <img src=${img[2]} alt="produc image">
+            
         </div>
         <div id="carrusel-images">
             <div class="product-image" id="uno"></div>
@@ -37,10 +37,12 @@ export const showDetails = async(element,productEndpoint) => {
             </div>
             <div id="description">
                 <p>${descripcion}</p>
-                <a href="#">Click for Sizing</a>
+                <a href="">Click for Sizing</a>
             </div>
         </div>
-        `
-    })
+    `
+    
+       
+    
 }
   
