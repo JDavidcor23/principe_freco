@@ -1,40 +1,48 @@
 {
-    "productos":[
-        {
-            "id": 1,
-            "img": [
-                "https://i.ibb.co/6XSDPyb/crown1.png","https://i.ibb.co/6XSDPyb/crown2.png", "https://i.ibb.co/6XSDPyb/crown3.png"
-            ],
-            "nombre": "Crown Sweatshirt",
-            "precio": 80.00,
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
-        },
-        {
-            "id": 2,
-            "img": [
-                "https://i.ibb.co/C92j1wv/fresB1.png", "https://i.ibb.co/C92j1wv/fresB2.png","https://i.ibb.co/C92j1wv/fresB3.png"
-            ],
-            "nombre": "Fresh Black Tie-Dye Hoodie",
-            "precio": 75.00,
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
-        },
-        {
-            "id": 3,
-            "img": [
-                "https://i.ibb.co/7zDZJCh/pose1.png","https://i.ibb.co/7zDZJCh/pose2.png", "https://i.ibb.co/7zDZJCh/pose3.png"
-            ],
-            "nombre": "Pose For It Tee",
-            "precio": 45.00,
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
-        },
-        {
-            "id": 4,
-            "img": [
-                "https://i.ibb.co/Ph4Bhfs/fresh1.png", "https://i.ibb.co/Ph4Bhfs/fresh2.png", "https://i.ibb.co/Ph4Bhfs/fresh3.png"
-            ],
-            "nombre": "Fresh Stripe Sweater",
-            "precio": 85.00,
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?" 
-        }
-    ]
+  "productos": [
+    {
+      "nombre": "jajajSweatshirt",
+      "img": [
+        "https://i.ibb.co/6XSDPyb/crown1.png",
+        "https://i.ibb.co/6XSDPyb/crown2.png",
+        "https://i.ibb.co/6XSDPyb/crown3.png"
+      ],
+      "precio": "80",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "img": [
+        "https://i.ibb.co/C92j1wv/fresB1.png",
+        "https://i.ibb.co/C92j1wv/fresB2.png",
+        "https://i.ibb.co/C92j1wv/fresB3.png"
+      ],
+      "nombre": "Fresh Black Tie-Dye Hoodie",
+      "precio": 75,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?"
+    },
+    {
+      "id": 3,
+      "img": [
+        "https://i.ibb.co/7zDZJCh/pose1.png",
+        "https://i.ibb.co/7zDZJCh/pose2.png",
+        "https://i.ibb.co/7zDZJCh/pose3.png"
+      ],
+      "nombre": "Pose For It Tee",
+      "precio": 45,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?"
+    },
+    {
+      "id": 4,
+      "img": [
+        "https://i.ibb.co/Ph4Bhfs/fresh1.png",
+        "https://i.ibb.co/Ph4Bhfs/fresh2.png",
+        "https://i.ibb.co/Ph4Bhfs/fresh3.png"
+      ],
+      "nombre": "Fresh Stripe Sweater",
+      "precio": 85,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quae incidunt molestias doloremque assumenda perspiciatis omnis nemo a. Doloribus numquam tempora eligendi, nihil consequuntur et aliquam? Ea maxime libero veniam?"
+    }
+  ]
 }
