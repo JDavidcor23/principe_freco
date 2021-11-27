@@ -4,6 +4,11 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+.other-models-content {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
 main section h2 {
   font-size: 2.4rem;
   font-weight: bold;
