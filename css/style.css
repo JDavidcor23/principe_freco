@@ -1,51 +1,50 @@
-@import url('http://fonts.cdnfonts.com/css/vegan-style-personal-use');
+@import url("http://fonts.cdnfonts.com/css/vegan-style-personal-use");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.text-logo{
-    font-family: 'Vegan Style Personal Use', sans-serif;
-    color: #FF4C13;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 40px;
-/* or 100% */
+.text-logo {
+  font-family: "Vegan Style Personal Use", sans-serif;
+  color: #ff4c13;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-
-.container-img-pie img{
-    width: 100%;
-    position: relative;
-    z-index: 2;
+.container-img-pie img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
-.container-footer{
-    height: 300px;
-    background-color: #1D1D1D;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
+.container-footer {
+  height: 300px;
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
-.logo-text{
-    text-align: center;
-    padding-top: 50px;
+.logo-text {
+  text-align: center;
+  padding-top: 50px;
 }
 
-.redes{
-    margin-top: 120px;
+.redes {
+  margin-top: 120px;
 }
 
-.redes img{
-    margin-right: 20px;
-    border-radius: 100%;
+.redes img {
+  margin-right: 20px;
+  border-radius: 100%;
 }
