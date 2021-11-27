@@ -1,0 +1,11 @@
+.rowcontainer-row {
+  background: #ff906d;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div-contenedor-productos {
+  margin-top: 20px;
+}

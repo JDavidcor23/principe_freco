@@ -1,14 +1,14 @@
 .scrolling-wrapper {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 250px;
+  width: 400px;
   height: 450px;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
   border: none;
   justify-content: center;
   align-items: center;
